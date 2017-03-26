@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hibernatedemo:war exploded">
+    <output-path>$PROJECT_DIR$/target/hibernatedemo</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hibernatedemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-nop:1.5.8" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.5.8" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/hibernatedemo/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="hibernatedemo/web/Web" />
+    </root>
+  </artifact>
+</component>
