@@ -20,7 +20,7 @@
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 
         <!-- Enable Hibernate's automatic session context management -->
-        <!--<property name="current_session_context_class">thread</property>-->
+        <property name="current_session_context_class">thread</property>
 
         <!-- Disable the second-level cache  -->
 
@@ -33,7 +33,7 @@
        <!-- <property name="hbm2ddl.auto">update</property>-->
 
         <mapping resource="com/tdd/hibernate/Student.hbm.xml"/>
-		<!--<mapping class="com.bjsxt.hibernate.Teacher"/>-->
+		<mapping class="com.tdd.hibernate.Teacher"/>
     </session-factory>
 
 </hibernate-configuration>
